@@ -1,0 +1,43 @@
+header, footer {
+  background-color: #51a474;
+  width: inherit;
+  padding-top: 20px;
+  font-size: 110%;
+  color: #fff8dc;
+}
+footer {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.navigation {
+  display: inline-block;
+  color:#51a474;
+}
+#logo {
+  width: 600px;
+  margin: 0px auto 0px auto;
+}
+ a {
+  text-decoration: none;
+  color: #fff8dc;
+}
+header ul {
+  padding: 0px 15px 20px 15px;
+  text-align: left;
+  width: 900px;
+  float: left;
+  margin-left: 10px;
+
+}
+header li {
+  display: inline;
+  margin: 0px 15px;
+
+}
+form.search_bar {
+  width: 300px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}

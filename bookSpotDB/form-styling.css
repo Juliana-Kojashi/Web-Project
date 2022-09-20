@@ -1,0 +1,43 @@
+div.content{
+  width: 450px;
+  margin: 0px auto 0px auto;
+  font-family: Helvetica, Sans-Serif;
+}
+form {
+  margin: 10px auto 10px auto;
+}
+fieldset {
+  width: 400px;
+  border: 1px solid #aba9a9;
+  border-radius: 10px;
+  padding: 20px 20px 10px 20px;
+}
+legend {
+  background-color: #7ecf93;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+label {
+  float:left;
+  width: 80px;
+  text-align: right;
+  padding-right: 10px;
+}
+fieldset.book label{
+  width: 120px;
+}
+input[type="text"], input[type="password"], textarea {
+  border: 1px solid #aba9a9;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.submit {
+  background-color: #7ecf93;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.btn {
+  text-align: right;
+}

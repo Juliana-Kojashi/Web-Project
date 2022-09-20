@@ -1,0 +1,52 @@
+#content {
+  font-size: 120%;
+  font-family: Helvetica, Sans-Serif;
+  width: inherit;
+  height: 958px;
+  background-image: url("background2.jpg");
+}
+#informacioni, #blerje {
+  float: left;
+  margin: 50px 10px 30px 30px;
+  height: 400px;
+}
+.book_info, .book_image {
+  float: left;
+}
+.book_info {
+  margin-left: 50px;
+  margin-top: 80px;
+  display: inline;
+}
+img.romani {
+  width: 250px;
+  height: 375px;
+}
+input#quantity {
+  width: 50px;
+  height: 22px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+input#cart {
+  height: 26px;
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#blerje {
+  text-align: right;
+  margin-left: 100px;
+  margin-top: 300px;
+  height: 150px;
+}
+#description {
+  clear: left;
+  margin-left: 30px;
+  width: 700px;
+}
+a {
+  text-decoration: none;
+  color: #ae5917;
+}

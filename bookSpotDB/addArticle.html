@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Book Spot - Add a book</title>
+  </head>
+  <link rel="stylesheet" href="header-and-footer-styling.css">
+  <link rel="stylesheet" href="form-styling.css">
+  <body>
+    <header>
+      <div id="logo">
+        <img src="logo.jpg" alt="">
+      </div>
+    </header>
+    <div class="content">
+      <form class="add" action="addArticle.php" method="post">
+        <fieldset class="book">
+          <legend>SHTOJI NJË LIBËR KOLEKSIONIT TONË</legend>
+          <p>
+            <label for="titulli">Titulli</label>
+            <input type="text" name="titulli" value="">
+          </p>
+          <p>
+            <label for="autori">Autori</label>
+            <input type="text" name="autori" value="">
+          </p>
+          <p>
+            <label for="nr_faqeve">Numri i faqeve</label>
+            <input type="text" name="nr_faqeve" value="">
+          </p>
+          <p>
+            <label for="shtepia_botuese">Shtëpia Botuese</label>
+            <input type="text" name="shtepia_botuese" value="">
+          </p>
+          <p>
+            <label for="isbn">ISBN</label>
+            <input type="text" name="isbn" value="">
+          </p>
+          <p>
+            <label for="cmimi">Çmimi</label>
+            <input type="text" name="cmimi" value="">
+          </p>
+          <p>
+            <label for="pershkrimi">Përshkrimi</label>
+            <textarea name="pershkrimi" rows="6" cols="50"></textarea>
+          </p>
+          <p>
+            <input type="file" name="image">
+          </p>
+          <p class="btn">
+            <input class="submit" type="submit" name="addArticleBtn" value="SHTO LIBRIN">
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <h2>Kontakt</h2>
+      <p>Tel: +355694578121</p>
+      <p>Email: <a href="#">contact@thebookspot.com</a></p>
+    </footer>
+  </body>
+</html>

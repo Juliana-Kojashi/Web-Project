@@ -1,0 +1,221 @@
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title> The Book Spot </title>
+  <style media="screen" type="text/css">
+  input.search {
+    background-color: #fff8dc;
+    border: 1px solid #dcdcdc;
+    color: #337d46;
+    border-radius: 5px;
+    padding: 3px 7px;
+  }
+  form.search_bar input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    padding: 3px 7px;
+    margin-top: 5px;
+  }
+  </style>
+</head>
+<link rel="stylesheet" href="header-and-footer-styling.css">
+<link rel="stylesheet" href="index-styling.css">
+<body>
+  <header>
+    <div id="logo">
+      <img src="logo.jpg" alt="">
+    </div>
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html">Kryefaqja</a></li>
+        <li><a href="#">Romane</a></li>
+        <li><a href="#">Poezi</a></li>
+        <li><a href="#">Bestseller</a></li>
+        <li><a href="#">Libra per femije</a></li>
+        <li><a href="autoret.html">Autoret</a></li>
+      </ul>
+      <form class="search_bar" action="search.php" method="post">
+        Kërko sipas:
+        <select name="search_by">
+          <option value="titulli">Titulli</option>
+          <option value="autori">Autori</option>
+          <option value="isbn">ISBN</option>
+        </select>
+        <input type="text" name="search">
+        <input class="search" type="submit" name="searchBtn" value="Kërko">
+      </form>
+      <div class="admin">
+        <a href="logIn.html">Vazhdo si Administrator</a>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <section class = "romanet">
+      <h2>Romanet e rinj</h2>
+      <div class="entry">
+        <figure>
+          <a href="libri1.html"><img src="rom4.jfif" alt="" /></a>
+          <figcaption>
+              <p>Ky është zëri im<br>
+              Angie Thomas<br>
+              1500 Lekë</p></figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="rom5.jfif" alt="" />
+          <figcaption>
+              <p>A më shikoni mua?<br>
+              Libby Scott, Rebecca Westcott<br>
+              1000 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="rom6.jfif" alt="" />
+          <figcaption>
+              <p>Unë jam lajmëtari<br>
+              Markus Zusak<br>
+              1200 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="rom3.jfif" alt="" />
+          <figcaption>
+              <p>Kronikë e një vdekjeje të paralajmëruar<br>
+              Gabriel Garsia Markez<br>
+              2000 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="rom2.jfif" alt="" />
+          <figcaption>
+              <p>Ndëshkimi i Mbretit të Zi<br>
+              Miranda Martin<br>
+              500 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+      <br><br> <br><br>
+    <section class="femije">
+      <h2>Librat e rinj për fëmijë</h2>
+      <div class="entry">
+        <figure>
+          <img src="fem1.jfif" alt="" />
+          <figcaption>
+              <p>Në Kornizë: Krimi i përkryer është vepër arti<br>
+              Frank Cottrell Boyce<br>
+              1200 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="fem2.jpg" alt="" />
+          <figcaption>
+              <p> Pipi Çorapegjata<br>
+              Astrid Lindgren<br>
+              500 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <a href="libri2.html"><img src="fem3.jpg" alt="" /></a>
+          <figcaption>
+              <p>Dyqani i vogël i maktheve dhe Stiki<br>
+              Magdalena Hai<br>
+              500 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="fem4.jfif" alt="" />
+          <figcaption>
+              <p>Djali që rriti dragonj<br>
+              Andy Shepherd<br>
+              700 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="fem5.jpg" alt="" />
+          <figcaption>
+              <p>Aventurat e pikës së ujit<br>
+              Ina Petritaj<br>
+              300 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <br><br><br><br>
+    <section class="bestseller">
+      <h2> Bestseller </h2>
+      <div class="entry">
+        <figure>
+          <img src="best5.jpg" alt="" />
+          <figcaption>
+              <p>Brida<br>
+              Paulo Coelho<br>
+              900 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="best4.jpg" alt="" />
+          <figcaption>
+              <p>Ciraku I Arkitektit<br>
+               Elif Shafak <br>
+               1400 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="best3.jpg" alt="" />
+          <figcaption>
+              <p>Çështja Karavaxho<br>
+               Daniel Silva<br>
+               1400 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="best2.jpg" alt="" />
+          <figcaption>
+              <p>Atje Ku Kendojne Karavidhet<br>
+               Delia Owens<br>
+              1200 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="entry">
+        <figure>
+          <img src="best1.jpg" alt="" />
+          <figcaption>
+              <p>Gjuetari i Balonave<br>
+                Khaled Hosseini<br>
+               1000 Lekë</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <br><br><br><br>
+  </div>
+  <footer>
+    <h2>Kontakt</h2>
+    <p>Tel: +355694578121</p>
+    <p>Email: <a href="#">contact@thebookspot.com</a></p>
+  </footer>
+</body>
+</html>

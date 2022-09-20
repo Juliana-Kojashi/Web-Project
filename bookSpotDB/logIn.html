@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Book Spot - Log In</title>
+  </head>
+  <link rel="stylesheet" href="header-and-footer-styling.css">
+  <link rel="stylesheet" href="form-styling.css">
+  <body>
+    <header>
+      <div id="logo">
+        <img src="logo.jpg" alt="">
+      </div>
+    </header>
+    <div class="content">
+      <form class="login" action="logAdmin.php" method="post">
+        <fieldset>
+          <legend>HYR</legend>
+          <p>
+            <label for="email">Email</label>
+            <input type="text" name="email">
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+          </p>
+          <p class = "btn">
+            <input class = "submit" type="submit" name="logInBtn" value="LOG IN">
+          </p>
+        </fieldset>
+      </form>
+      <br>
+      <form class="signin" action="addAdmin.php" method="post">
+        <fieldset>
+          <legend>REGJISTROHU</legend>
+          <p>
+            <label for="name">Emri</label>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label for="surname">Mbiemri</label>
+            <input type="text" name="surname">
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="text" name="email">
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+          </p>
+          <p class="btn">
+            <input class = "submit" type="submit" name="signInBtn" value="SIGN IN">
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <h2>Kontakt</h2>
+      <p>Tel: +355694578121</p>
+      <p>Email: <a href="#">contact@thebookspot.com</a></p>
+    </footer>
+  </body>
+</html>

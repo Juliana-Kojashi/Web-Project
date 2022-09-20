@@ -1,0 +1,54 @@
+header, footer {
+  background-color: #51a474;
+  width: inherit;
+  padding-top: 20px;
+  font-size: 110%;
+  font-family: Helvetica, Sans-Serif;
+  color: #fff8dc;
+}
+footer {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.navigation {
+  display: inline-block;
+  width:1500px;
+}
+#logo {
+  width: 500px;
+  margin: 0px auto 0px auto;
+}
+header a, footer a {
+  text-decoration: none;
+  color: #fff8dc;
+}
+header ul {
+  padding: 20px 15px 10px 15px;
+  text-align: left;
+  width: 800px;
+  float: left;
+  margin-left: 10px;
+}
+header li {
+  display: inline;
+  margin: 0px 15px;
+}
+form.search_bar {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+div.admin a {
+  background-color: #fff8dc;
+  border: 1px solid #dcdcdc;
+  color: #337d46;
+  border-radius: 5px;
+  padding: 10px;
+}
+div.admin {
+  float:right;
+  margin: 10px 20px 20px 10px;
+  padding-top: 20px;
+}

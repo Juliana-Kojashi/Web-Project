@@ -1,0 +1,21 @@
+.lista_autoreve, #content h2 {
+  margin-left: 30px;
+}
+#content {
+  font-size: 110%;
+  font-family: Helvetica, Sans-Serif;
+  background-color: #fff8dc;
+  border: 1px solid #fff8dc;
+}
+#content a {
+  text-decoration: none;
+  color: inherit;
+}
+ul.alphabet {
+  text-align: right;
+  margin-right: 30px;
+}
+ul.lista_autoreve {
+  width: 500px;
+  color: #ae5917;
+}
